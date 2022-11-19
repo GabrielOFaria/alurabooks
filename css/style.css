@@ -1,5 +1,6 @@
 @import url(banner.css);
 @import url(../css/header.css);
+@import url(carousel.css);
 
 :root {
     --backgroud-color: #EBECEE;
@@ -7,6 +8,7 @@
     --orange: #EB9800;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-main: 'Poppins';
+    --blue: #002F52;
 }
 
 body {
