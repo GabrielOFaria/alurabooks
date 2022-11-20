@@ -1,2 +1,2 @@
 # alurabooks
- Alura Books
+ Projeto feito durante o curso de HTML e CSS.
