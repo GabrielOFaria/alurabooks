@@ -4,7 +4,44 @@ hr {
 
 .footer {
     background: var(--white);
-    padding: 1em;
-    font-size: 16px;
-    font-weight: 300;
+    padding: 1em;    
+}
+
+.footer-list {
+    display: none;
+}
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-list {
+        display: block;
+    }
+    .footer-list__item{
+        display: flex;
+        align-items: center;
+        margin: 0.6em;
+    }
+
+    .footer-link {
+        color: var(--gray);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+    .footer-list__title {
+        font-size: 14px;
+        color: var(--ligth-gray);
+    }
+
+    .footer__title {
+        font-size: 24px;
+        width: 170px;
+    }
 }
