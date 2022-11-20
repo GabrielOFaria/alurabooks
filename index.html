@@ -19,7 +19,7 @@
     <header class="header">
         <div class="container">
             <input type="checkbox" id="menu" class="container__button">
-            <label for="menu">
+            <label for="menu" class="container__label">
                 <span class="header__menu-hamburguer container__img"></span>
             </label>
             <ul class="list-menu">
@@ -46,7 +46,7 @@
 
         <ul class="options">
             <input type="checkbox" id="options-menu" class="options__button">
-            <label for="options-menu">
+            <label for="options-menu" class="options__label">
                 <li class="options__item">Categorias</li>
             </label>
 
@@ -96,11 +96,11 @@
     <section class="carousel">
         <h2 class="carousel__title">Novos Lançamentos</h2>
         <!-- Slider main container -->
+        <div class="carousel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg"
@@ -112,14 +112,11 @@
                 <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia Front-end"></div>
                 <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol"></div>
                 <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
-
             </div>
-
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-
         <div class="card">
             <!-- 1º linha -->
             <div class="card__description">
@@ -132,21 +129,22 @@
                 <!-- 2º coluna -->
                 <img src="img/Angular.svg" class="description__img" alt="Imagem Angular">
             </div>
-
             <!-- 2º linha -->
             <div class="card__buttons">
                 <!-- 1º Coluna -->
                 <ul class="buttons">
                     <li class="buttons__item"><img src="img/Favoritos-1.svg" alt="Favoritar livro"></li>
-                    <li class="buttons__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    <li class="buttons__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras">
+                    </li>
                 </ul>
                 <!-- 2º Coluna -->
                 <a href="#" class="anchor__buttons">Saiba mais</a>
             </div>
         </div>
-
+        </div>
         <section class="carousel">
             <h2 class="carousel__title">Mais Vendidos</h2>
+            <div class="carousel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -161,7 +159,8 @@
                             alt="Livro sovre javascript assertivo da alura books"></div>
                     <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia Front-end"></div>
                     <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol"></div>
-                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
+                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade">
+                    </div>
                 </div>
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
